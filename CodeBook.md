@@ -44,6 +44,9 @@ In order to verify the above:
 + TinyTemp: a df resulting from the selection of columns from TestTrainSet, using MeansStdsSort as an index reference
 + TidySet.txt: Name of the space delimited text file built to store the tidy dataset required.
 
-
+TidySet.txt Content:
++ Subject: the individual whose measurements are presented in the row
++ Activity label (WALKING, WALKING_UPSTAIRS, etcetera)
++ Measured Activity value: Average for the aggregated measure in the column (66 variable columns) 
 
 
