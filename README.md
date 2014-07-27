@@ -53,5 +53,6 @@ Step 4 - Appropriately labels the data set with descriptive variable names.
 + Using "MeansStdsSort" as the list of columns captured ("means()" and "std()"), 
 + Capture from "TestTrainSet" the names of the columns, and set them as names on "TidyTemp"
 
-Step 5 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. + Create an outcome file using write.table(), ready to be consumed from Excel as a Text file.
+Step 5 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
++ Create an outcome file using write.table(), ready to be consumed from Excel as a Text file.
 + The file delivered, called "TidySet.txt" should be opened in Excel as "Delimited", using "space" as the inter-column separator.
