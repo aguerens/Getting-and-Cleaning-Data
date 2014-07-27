@@ -17,12 +17,13 @@ Note 2: All measures are expressed in sensors units, normalized after being pre-
 
 ## Requirements
 The following R packages have been loaded to implement script functionality
-"stringr" => Needed for string manipulation
-"plyr" => Needed to implement ddply for final aggregation
++ "stringr" => Needed for string manipulation
++ "plyr" => Needed to implement ddply for final aggregation
+
 Directory structure
 In addition, the script assumes it is run from the same directory where the original raw data folder structure was built.
 In order to verify the above:
-Perform a getwd() and check the final branch you are at is called "UCI HAR Dataset", and the following directories are available: "train" and "test"
++ Perform a getwd() and check the final branch you are at is called "UCI HAR Dataset", and the following directories are available: "train" and "test"
 
 ## Variables Used
 
