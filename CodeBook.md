@@ -7,7 +7,8 @@
 runscript.R was created to process raw data sourced from the "UCI HAR" experiment (see the README.txt for more information on the experiment).
 This document delves into script's different components used to achieve the goal.
 
-Note: for the sake of saving space, the acronym "df's" is used to represent "data frames"
+Note 1: for the sake of saving space, the acronym "df's" is used to represent "data frames"
+Note 2: All measures are expressed in sensors units, normalized after being pre-processed applying noise filters.
 
 ## Index
 + Requirements
