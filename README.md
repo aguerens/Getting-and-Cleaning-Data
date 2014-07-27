@@ -1,6 +1,7 @@
 # Getting and Cleaning Data
-#Course Project
-Author: Alec
+## Course Project
+
+### Author: Alec
 ==================================================================
 
 An script called "run_analysis.R" was developed to convert raw data captured in the "UCI HAR Dataset" into a tidy dataset for processing.
@@ -11,21 +12,19 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 30 Subjects participated in the experiment where the six mentioned activities were performed. An average for each of the measured variables was calculated and included in the accompanying dataset ("TidySet.txt").
 
-"TidySet.txt" content - For each combination of Subject and Activity it is provided:
-====================================================================================
+### "TidySet.txt" content - For each combination of Subject and Activity it is provided:
 
-- An identifier of the subject who carried out the experiment.
-- A label with the name of the Activity performed
-- The resulting average value for each of the metrics averaged-out.
++ An identifier of the subject who carried out the experiment.
++ A label with the name of the Activity performed
++ The resulting average value for each of the metrics averaged-out.
 
-The deliverables includes the following files:
-=========================================
+### The deliverables includes the following files:
 
-- 'README.txt' (this file)
++ 'README.txt' (this file)
 
-- "run_analysis.R": the script used to convert experiment's original raw data into the Tidy dataset provided.
++ "run_analysis.R": the script used to convert experiment's original raw data into the Tidy dataset provided.
 
-- "TidySet.txt": the outcome of the above script, as described in the previous section
++ "TidySet.txt": the outcome of the above script, as described in the previous section
 
 - "CodeBook.md": a document with a detailed explanation about processes and variables utilized in the "run_analysis.R" script
 
