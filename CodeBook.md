@@ -25,22 +25,22 @@ Perform a getwd() and check the final branch you are at is called "UCI HAR Datas
 
 ## Variables Used
 
-df_features: Complete list of recorded measures, with a positioning code (index).
-df_activity: Table of Activities codes and labels   
-df_x_test: Values measured in the Test set
-df_subject_test: Subject codes pertaining to measured values in the Test set
-df_y_test: Activity  codes pertaining to measured values in the Test set
-df_x_train: Values measured in the Trial set
-df_subject_train: Subject codes pertaining to measured values in the train set
-df_y_train: Activity  codes pertaining to measured values in the train set
-TestSet: the cbind() of Test measures, Subjects and Activity codes.
-TrainSet: the cbind() of Train measures, Subjects and Activity codes.
-TestTrainSet: the rbind() df sourced from TestSet and TrainSet
-df_Titles: list of the columns for features to be captured (those having mean() or std() in their names)
-MeansStds: list of sorted column numbers to be captured from TestTrainSet
-MeansStdsSort: sorted MeansStd df
-TinyTemp: a df resulting from the selection of columns from TestTrainSet, using MeansStdsSort as an index reference
-TidySet.txt: Name of the space delimited text file built to store the tidy dataset required.
++ df_features: Complete list of recorded measures, with a positioning code (index).
++ df_activity: Table of Activities codes and labels   
++ df_x_test: Values measured in the Test set
++ df_subject_test: Subject codes pertaining to measured values in the Test set
++ df_y_test: Activity  codes pertaining to measured values in the Test set
++ df_x_train: Values measured in the Trial set
++ df_subject_train: Subject codes pertaining to measured values in the train set
++ df_y_train: Activity  codes pertaining to measured values in the train set
++ TestSet: the cbind() of Test measures, Subjects and Activity codes.
++ TrainSet: the cbind() of Train measures, Subjects and Activity codes.
++ TestTrainSet: the rbind() df sourced from TestSet and TrainSet
++ df_Titles: list of the columns for features to be captured (those having mean() or std() in their names)
++ MeansStds: list of sorted column numbers to be captured from TestTrainSet
++ MeansStdsSort: sorted MeansStd df
++ TinyTemp: a df resulting from the selection of columns from TestTrainSet, using MeansStdsSort as an index reference
++ TidySet.txt: Name of the space delimited text file built to store the tidy dataset required.
 
 
 
