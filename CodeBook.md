@@ -1,18 +1,20 @@
-# Functionality and Featuresrun_script
+# Functionality and Features
+
 ## run_script.R 
 
 ## Introduction
-### runscript.R was created to process raw data sourced from the "UCI HAR" experiment (see the README.txt for more information on the experiment).
-### This document delves into script's different components used to achieve the goal.
 
-#### Note: for the sake of saving space, the acronym "df's" is used to represent "data frames"
+runscript.R was created to process raw data sourced from the "UCI HAR" experiment (see the README.txt for more information on the experiment).
+This document delves into script's different components used to achieve the goal.
+
+Note: for the sake of saving space, the acronym "df's" is used to represent "data frames"
 
 ## Index
-Requirements
-Processing modules and variables
++ Requirements
++ Processing modules and variables
 
 
-Requirements
+## Requirements
 The following R packages have been loaded to implement script functionality
 "stringr" => Needed for string manipulation
 "plyr" => Needed to implement ddply for final aggregation
@@ -21,8 +23,7 @@ In addition, the script assumes it is run from the same directory where the orig
 In order to verify the above:
 Perform a getwd() and check the final branch you are at is called "UCI HAR Dataset", and the following directories are available: "train" and "test"
 
-Processing modules
-
+## Processing modules
 Package Load
 Load libraries needed for script execution (stringr and plyr)
 
