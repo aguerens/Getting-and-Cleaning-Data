@@ -1,10 +1,10 @@
 # Functionality and Features
 
-## run_script.R 
+## run_analysis.R 
 
 ## Introduction
 
-runscript.R was created to process raw data sourced from the "UCI HAR" experiment (see the README.txt for more information on the experiment).
+run_analysis.R was created to process raw data sourced from the "UCI HAR" experiment (see the README.txt for more information on the experiment).
 This document delves into script's different components used to achieve the goal.
 
 Note 1: for the sake of saving space, the acronym "df's" is used to represent "data frames"
